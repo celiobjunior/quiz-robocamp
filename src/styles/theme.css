@@ -148,3 +148,16 @@ body::before {
 .social-link-tile:active {
   transform: translate(2px, 2px);
 }
+
+.option-button,
+.option-button:hover,
+.option-button:focus,
+.option-button:focus-visible,
+.option-button:active,
+.option-button span {
+  text-decoration: none !important;
+}
+
+.option-button {
+  -webkit-tap-highlight-color: transparent;
+}
