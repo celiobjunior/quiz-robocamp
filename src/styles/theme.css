@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;500;700&display=swap");
+
+:root {
+  --color-wine: #90003d;
+  --color-black: #0e1618;
+  --color-white: #fcfcfb;
+  --shadow-offset: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  font-family: "IBM Plex Mono", monospace;
+  background-image:
+    linear-gradient(90deg, rgba(14, 22, 24, 0.08) 1px, transparent 1px),
+    linear-gradient(rgba(14, 22, 24, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 5% 10%, rgba(144, 0, 61, 0.15), transparent 45%);
+  background-size: 22px 22px, 22px 22px, auto;
+  background-position: 0 0, 0 0, 0 0;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18px;
+  background: var(--color-wine);
+  border-bottom: 4px solid var(--color-black);
+  z-index: 1;
+  pointer-events: none;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.page-shell {
+  position: relative;
+  min-height: 100vh;
+  padding: 1.8rem 1.2rem 1.2rem;
+}
+
+.brut-card {
+  border: 4px solid var(--color-black);
+  background: var(--color-white);
+  box-shadow: var(--shadow-offset) var(--shadow-offset) 0 var(--color-black);
+}
+
+.brut-button,
+.brut-button-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--color-black);
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.15s ease;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+}
+
+.brut-button {
+  background: var(--color-wine);
+  color: var(--color-white);
+  box-shadow: 6px 6px 0 var(--color-black);
+}
+
+.brut-button-secondary {
+  background: var(--color-white);
+  color: var(--color-black);
+  box-shadow: 6px 6px 0 var(--color-black);
+}
+
+.brut-button:hover,
+.brut-button-secondary:hover {
+  transform: translate(-2px, -2px);
+}
+
+.brut-button:active,
+.brut-button-secondary:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.feature-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border: 3px solid var(--color-black);
+  background: #fff6fa;
+  padding: 0.85rem;
+  box-shadow: 4px 4px 0 var(--color-black);
+}
+
+.feature-tile strong {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.feature-tile span {
+  font-size: 0.75rem;
+  font-weight: 600;
+}

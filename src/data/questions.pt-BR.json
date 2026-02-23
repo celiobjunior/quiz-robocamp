@@ -1,0 +1,682 @@
+[
+  {
+    "id": "e01",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "O que a unidade \"V\" (volt) mede?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Tensão elétrica"
+      },
+      {
+        "id": "b",
+        "label": "Corrente elétrica"
+      },
+      {
+        "id": "c",
+        "label": "Resistência"
+      },
+      {
+        "id": "d",
+        "label": "Potência"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e02",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "O que a unidade \"A\" (ampere) mede?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Tensão"
+      },
+      {
+        "id": "b",
+        "label": "Corrente"
+      },
+      {
+        "id": "c",
+        "label": "Frequência"
+      },
+      {
+        "id": "d",
+        "label": "Capacitância"
+      }
+    ],
+    "correctOptionId": "b"
+  },
+  {
+    "id": "e03",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "O que a unidade \"Ω\" (ohm) mede?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Resistência"
+      },
+      {
+        "id": "b",
+        "label": "Potência"
+      },
+      {
+        "id": "c",
+        "label": "Tensão"
+      },
+      {
+        "id": "d",
+        "label": "Corrente"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e04",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "Qual componente é mais usado para limitar corrente em um LED?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Resistor"
+      },
+      {
+        "id": "b",
+        "label": "Capacitor"
+      },
+      {
+        "id": "c",
+        "label": "Buzzer"
+      },
+      {
+        "id": "d",
+        "label": "Sensor ultrassônico"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e05",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "O que é um curto-circuito (curto)?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ligação direta entre pontos que não deveriam estar conectados (ex.: VCC com GND)"
+      },
+      {
+        "id": "b",
+        "label": "Um programa com pouco código"
+      },
+      {
+        "id": "c",
+        "label": "Uma bateria com carga completa"
+      },
+      {
+        "id": "d",
+        "label": "Um sensor com alta precisão"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e06",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "Qual é a relação básica da Lei de Ohm?",
+    "options": [
+      {
+        "id": "a",
+        "label": "V = I * R"
+      },
+      {
+        "id": "b",
+        "label": "P = V / I"
+      },
+      {
+        "id": "c",
+        "label": "R = V * I"
+      },
+      {
+        "id": "d",
+        "label": "I = V + R"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e07",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "Qual instrumento é mais comum para medir tensão, corrente e resistência?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Multímetro"
+      },
+      {
+        "id": "b",
+        "label": "Osciloscópio"
+      },
+      {
+        "id": "c",
+        "label": "Impressora 3D"
+      },
+      {
+        "id": "d",
+        "label": "Fonte ATX (PC)"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e08",
+    "difficulty": "facil",
+    "topic": "arduino",
+    "prompt": "Qual placa é muito usada por iniciantes para aprender eletrônica e programação embarcada?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Arduino"
+      },
+      {
+        "id": "b",
+        "label": "Placa de vídeo"
+      },
+      {
+        "id": "c",
+        "label": "HD externo"
+      },
+      {
+        "id": "d",
+        "label": "Monitor"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e09",
+    "difficulty": "facil",
+    "topic": "sistemas-embarcados",
+    "prompt": "O que é um microcontrolador (ex.: ATmega, ESP32) de forma simples?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Um “mini computador” em um chip, com CPU e periféricos para controlar hardware"
+      },
+      {
+        "id": "b",
+        "label": "Um cabo para ligar sensores"
+      },
+      {
+        "id": "c",
+        "label": "Um tipo de bateria recarregável"
+      },
+      {
+        "id": "d",
+        "label": "Um monitor pequeno"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e10",
+    "difficulty": "facil",
+    "topic": "sistemas-embarcados",
+    "prompt": "Qual a diferença mais comum entre microcontrolador e microprocessador?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Microcontrolador costuma ter periféricos integrados; microprocessador depende mais de componentes externos"
+      },
+      {
+        "id": "b",
+        "label": "Microprocessador só funciona com pilha AA"
+      },
+      {
+        "id": "c",
+        "label": "Microcontrolador sempre roda Windows"
+      },
+      {
+        "id": "d",
+        "label": "Não existe diferença"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e11",
+    "difficulty": "facil",
+    "topic": "hardware",
+    "prompt": "O que significa a sigla USB?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Um padrão de conexão para dados e energia"
+      },
+      {
+        "id": "b",
+        "label": "Um tipo de sensor de distância"
+      },
+      {
+        "id": "c",
+        "label": "Um componente que aumenta tensão"
+      },
+      {
+        "id": "d",
+        "label": "Um protocolo de áudio apenas"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e12",
+    "difficulty": "facil",
+    "topic": "gpio",
+    "prompt": "Se um pino está configurado como entrada (input), ele serve principalmente para:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ler sinais (ex.: botão, sensor digital)"
+      },
+      {
+        "id": "b",
+        "label": "Fornecer muita corrente para motor"
+      },
+      {
+        "id": "c",
+        "label": "Carregar bateria"
+      },
+      {
+        "id": "d",
+        "label": "Converter AC em DC"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e13",
+    "difficulty": "facil",
+    "topic": "gpio",
+    "prompt": "Se um pino está configurado como saída (output), ele serve principalmente para:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Enviar sinais (ex.: acender LED, ligar relé)"
+      },
+      {
+        "id": "b",
+        "label": "Medir tensão automaticamente"
+      },
+      {
+        "id": "c",
+        "label": "Aumentar memória RAM"
+      },
+      {
+        "id": "d",
+        "label": "Ler cartão SD diretamente sem circuito"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e14",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "O que um diodo faz, na ideia mais básica?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Deixa a corrente passar mais facilmente em um sentido do que no outro"
+      },
+      {
+        "id": "b",
+        "label": "Armazena energia como uma pilha"
+      },
+      {
+        "id": "c",
+        "label": "Mede temperatura"
+      },
+      {
+        "id": "d",
+        "label": "Amplifica sinal como um motor"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e15",
+    "difficulty": "facil",
+    "topic": "eletronica",
+    "prompt": "Para que serve um capacitor, de forma simples?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Armazenar pequena quantidade de energia e ajudar a suavizar variações"
+      },
+      {
+        "id": "b",
+        "label": "Aumentar a velocidade do Wi-Fi"
+      },
+      {
+        "id": "c",
+        "label": "Transformar código C em Python"
+      },
+      {
+        "id": "d",
+        "label": "Medir resistência automaticamente"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e16",
+    "difficulty": "facil",
+    "topic": "sensores",
+    "prompt": "Um sensor ultrassônico (tipo HC-SR04) é usado principalmente para medir:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Distância"
+      },
+      {
+        "id": "b",
+        "label": "Temperatura do processador"
+      },
+      {
+        "id": "c",
+        "label": "Tensão da bateria"
+      },
+      {
+        "id": "d",
+        "label": "Nível de Wi-Fi"
+      }
+    ],
+    "correctOptionId": "a",
+    "image": {
+      "src": "sensor-ultrassonico",
+      "alt": "Sensor ultrassônico HC-SR04",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "e17",
+    "difficulty": "facil",
+    "topic": "programacao-basica",
+    "prompt": "O que é uma variável em programação?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Um espaço para guardar um valor (número, texto etc.)"
+      },
+      {
+        "id": "b",
+        "label": "Um cabo que liga o sensor"
+      },
+      {
+        "id": "c",
+        "label": "Um tipo de solda"
+      },
+      {
+        "id": "d",
+        "label": "Um resistor ajustável"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e18",
+    "difficulty": "facil",
+    "topic": "programacao-basica",
+    "prompt": "Para que serve um laço (loop) como \"for\" ou \"while\" na programação?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Repetir um bloco de código"
+      },
+      {
+        "id": "b",
+        "label": "Exibir uma mensagem de erro"
+      },
+      {
+        "id": "c",
+        "label": "Atribuir uma variável"
+      },
+      {
+        "id": "d",
+        "label": "Terminar o programa atual"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e19",
+    "difficulty": "facil",
+    "topic": "programacao-basica",
+    "prompt": "O que o comando \"if (se)\" faz na programação?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Executa um bloco de código se uma condição for verdadeira"
+      },
+      {
+        "id": "b",
+        "label": "Repete um bloco de código"
+      },
+      {
+        "id": "c",
+        "label": "Executa um código várias vezes"
+      },
+      {
+        "id": "d",
+        "label": "Termina o programa atual"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e20",
+    "difficulty": "facil",
+    "topic": "c-cpp",
+    "prompt": "Em C/C++, o operador \"=\" é usado para:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Atribuir valor"
+      },
+      {
+        "id": "b",
+        "label": "Comparar igualdade"
+      },
+      {
+        "id": "c",
+        "label": "Ler sensor"
+      },
+      {
+        "id": "d",
+        "label": "Configurar PWM"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e21",
+    "difficulty": "facil",
+    "topic": "c-cpp",
+    "prompt": "Em C/C++, o operador \"==\" é usado para:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Comparar igualdade"
+      },
+      {
+        "id": "b",
+        "label": "Atribuir valor"
+      },
+      {
+        "id": "c",
+        "label": "Somar dois números sempre"
+      },
+      {
+        "id": "d",
+        "label": "Desligar interrupções"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e22",
+    "difficulty": "facil",
+    "topic": "c-cpp",
+    "prompt": "Para que serve uma função em programação?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Organizar e reutilizar um bloco de código"
+      },
+      {
+        "id": "b",
+        "label": "Aumentar a corrente do circuito"
+      },
+      {
+        "id": "c",
+        "label": "Substituir a fonte de alimentação"
+      },
+      {
+        "id": "d",
+        "label": "Corrigir curto automaticamente"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e23",
+    "difficulty": "facil",
+    "topic": "baixo-nivel",
+    "prompt": "O que é um bit?",
+    "options": [
+      {
+        "id": "a",
+        "label": "A menor unidade de informação, que pode ser 0 ou 1"
+      },
+      {
+        "id": "b",
+        "label": "Um tipo de sensor de luz"
+      },
+      {
+        "id": "c",
+        "label": "Um cabo de alimentação"
+      },
+      {
+        "id": "d",
+        "label": "Um motor muito pequeno"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e24",
+    "difficulty": "facil",
+    "topic": "baixo-nivel",
+    "prompt": "O que é um byte?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Um conjunto de 8 bits"
+      },
+      {
+        "id": "b",
+        "label": "Uma porta lógica"
+      },
+      {
+        "id": "c",
+        "label": "Uma unidade de tensão"
+      },
+      {
+        "id": "d",
+        "label": "Um tipo de resistor"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e25",
+    "difficulty": "facil",
+    "topic": "baixo-nivel",
+    "prompt": "Em computação, números em hexadecimal são base:",
+    "options": [
+      {
+        "id": "a",
+        "label": "16"
+      },
+      {
+        "id": "b",
+        "label": "2"
+      },
+      {
+        "id": "c",
+        "label": "8"
+      },
+      {
+        "id": "d",
+        "label": "10"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e26",
+    "difficulty": "facil",
+    "topic": "baixo-nivel",
+    "prompt": "O que significa “compilar” um programa em C/C++?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Transformar o código em um executável/código de máquina para rodar"
+      },
+      {
+        "id": "b",
+        "label": "Apagar a memória do microcontrolador"
+      },
+      {
+        "id": "c",
+        "label": "Aumentar a tensão da fonte"
+      },
+      {
+        "id": "d",
+        "label": "Conectar o Wi-Fi"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e27",
+    "difficulty": "facil",
+    "topic": "seguranca-eletrica",
+    "prompt": "Uma regra básica de segurança ao prototipar eletrônica é:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Desligar a alimentação antes de mudar ligações no circuito"
+      },
+      {
+        "id": "b",
+        "label": "Mexer nas ligações com a fonte energizada para economizar tempo"
+      },
+      {
+        "id": "c",
+        "label": "Encostar VCC em GND para verificar se a fonte está forte"
+      },
+      {
+        "id": "d",
+        "label": "Segurar nos terminais metálicos enquanto energiza o circuito"
+      }
+    ],
+    "correctOptionId": "a"
+  }
+]

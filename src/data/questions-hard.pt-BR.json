@@ -1,0 +1,237 @@
+[
+  {
+    "id": "e05",
+    "difficulty": "media",
+    "topic": "eletronica",
+    "prompt": "Em geral, um LED tem polaridade. Como identificar o terminal mais longo?",
+    "options": [
+      {
+        "id": "a",
+        "label": "É o ânodo (+)"
+      },
+      {
+        "id": "b",
+        "label": "É o cátodo (-)"
+      },
+      {
+        "id": "c",
+        "label": "É sempre o terra (GND)"
+      },
+      {
+        "id": "d",
+        "label": "Não existe terminal mais longo"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e07",
+    "difficulty": "media",
+    "topic": "eletronica",
+    "prompt": "Para que serve o GND (terra) em um circuito?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ser referência comum de tensão e caminho de retorno de corrente"
+      },
+      {
+        "id": "b",
+        "label": "Aumentar o brilho do LED"
+      },
+      {
+        "id": "c",
+        "label": "Armazenar energia como uma bateria"
+      },
+      {
+        "id": "d",
+        "label": "Medir temperatura do circuito"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e09",
+    "difficulty": "media",
+    "topic": "eletronica",
+    "prompt": "Em uma protoboard (breadboard), para que servem os trilhos laterais (geralmente vermelho e azul)?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Distribuir alimentação (VCC e GND) ao longo da placa"
+      },
+      {
+        "id": "b",
+        "label": "Aumentar a velocidade do microcontrolador"
+      },
+      {
+        "id": "c",
+        "label": "Medir corrente automaticamente"
+      },
+      {
+        "id": "d",
+        "label": "Gerar sinal PWM"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e24",
+    "difficulty": "media",
+    "topic": "atuadores",
+    "prompt": "Um motor DC (motorzinho comum) normalmente precisa de quê para controlar velocidade?",
+    "options": [
+      {
+        "id": "a",
+        "label": "PWM (modulação por largura de pulso) ou controle de tensão/corrente"
+      },
+      {
+        "id": "b",
+        "label": "Somente uma variável em Python"
+      },
+      {
+        "id": "c",
+        "label": "Um cabo HDMI"
+      },
+      {
+        "id": "d",
+        "label": "Apenas um sensor LDR"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e25",
+    "difficulty": "media",
+    "topic": "robotica",
+    "prompt": "Para inverter o sentido de um motor DC com controle eletrônico, um circuito muito comum é:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Ponte H (H-bridge)"
+      },
+      {
+        "id": "b",
+        "label": "Divisor de tensão"
+      },
+      {
+        "id": "c",
+        "label": "Amplificador operacional"
+      },
+      {
+        "id": "d",
+        "label": "Filtro passa-baixa"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e26",
+    "difficulty": "media",
+    "topic": "atuadores",
+    "prompt": "Um servo motor (ex.: SG90) geralmente é controlado por:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Sinal PWM em um pino"
+      },
+      {
+        "id": "b",
+        "label": "Corrente alternada (AC) da tomada"
+      },
+      {
+        "id": "c",
+        "label": "Bluetooth obrigatório"
+      },
+      {
+        "id": "d",
+        "label": "Apenas I2C"
+      }
+    ],
+    "correctOptionId": "a"
+  },
+  {
+    "id": "e28",
+    "difficulty": "media",
+    "topic": "sensores",
+    "prompt": "Um LDR é um sensor de:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Luz (varia resistência conforme iluminação)"
+      },
+      {
+        "id": "b",
+        "label": "Som"
+      },
+      {
+        "id": "c",
+        "label": "Pressão atmosférica"
+      },
+      {
+        "id": "d",
+        "label": "Velocidade de rotação"
+      }
+    ],
+    "correctOptionId": "a",
+    "image": {
+      "src": "sensor-ldr",
+      "alt": "Sensor LDR para luminosidade",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "e30",
+    "difficulty": "media",
+    "topic": "sensores",
+    "prompt": "Um potenciômetro, em um projeto, é comumente usado como:",
+    "options": [
+      {
+        "id": "a",
+        "label": "Controle ajustável (um “knob”) para variar um valor"
+      },
+      {
+        "id": "b",
+        "label": "Motor de alta potência"
+      },
+      {
+        "id": "c",
+        "label": "Antena de internet"
+      },
+      {
+        "id": "d",
+        "label": "Memória de armazenamento"
+      }
+    ],
+    "correctOptionId": "a",
+    "image": {
+      "src": "sensor-potenciometro",
+      "alt": "Potenciômetro rotativo",
+      "placeholder": false
+    }
+  },
+  {
+    "id": "e23",
+    "difficulty": "dificil",
+    "topic": "eletronica",
+    "prompt": "Qual componente é muito usado como “chave eletrônica” para ligar/desligar cargas com um microcontrolador?",
+    "options": [
+      {
+        "id": "a",
+        "label": "Transistor"
+      },
+      {
+        "id": "b",
+        "label": "Potenciômetro"
+      },
+      {
+        "id": "c",
+        "label": "Capacitor"
+      },
+      {
+        "id": "d",
+        "label": "Cristal de quartzo"
+      }
+    ],
+    "correctOptionId": "a"
+  }
+]
