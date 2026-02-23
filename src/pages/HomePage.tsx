@@ -96,7 +96,11 @@ export function HomePage() {
             </p>
           ) : null}
 
-          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+        </div>
+
+        <div className="brut-card p-5 sm:p-6">
+          <p className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-brandWine">Redes e contato</p>
+          <div className="grid gap-3 sm:grid-cols-3">
             <a
               href="https://linktr.ee/robocamp.ft"
               target="_blank"
