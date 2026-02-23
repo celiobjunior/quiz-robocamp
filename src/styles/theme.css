@@ -149,15 +149,29 @@ body::before {
   transform: translate(2px, 2px);
 }
 
-.option-button,
-.option-button:hover,
-.option-button:focus,
-.option-button:focus-visible,
-.option-button:active,
+.option-button {
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  text-decoration: none !important;
+}
+
 .option-button span {
   text-decoration: none !important;
 }
 
-.option-button {
-  -webkit-tap-highlight-color: transparent;
+.option-button:focus {
+  outline: none;
+}
+
+.option-button:focus-visible {
+  outline: 3px solid var(--color-wine);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .option-button:hover {
+    transform: translate(-1px, -1px);
+  }
 }

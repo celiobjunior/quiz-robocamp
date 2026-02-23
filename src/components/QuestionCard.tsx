@@ -77,7 +77,7 @@ export function QuestionCard({
       <div className="grid gap-3">
         {question.options.map((option, index) => (
           <OptionButton
-            key={option.id}
+            key={`${question.id}-${option.id}`}
             prefix={String.fromCharCode(65 + index)}
             label={option.label}
             disabled={disabled}

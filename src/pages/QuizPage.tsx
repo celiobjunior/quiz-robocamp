@@ -22,6 +22,18 @@ export function QuizPage() {
 
   const [remainingSeconds, setRemainingSeconds] = useState(QUESTION_TIME_LIMIT_SECONDS);
   const lockRef = useRef(false);
+  const questionRenderKey = currentQuestion && mode ? `${mode}-${currentQuestion.id}-${currentIndex}` : null;
+
+  useEffect(() => {
+    if (!questionRenderKey) {
+      return;
+    }
+
+    const activeElement = document.activeElement;
+    if (activeElement instanceof HTMLElement) {
+      activeElement.blur();
+    }
+  }, [questionRenderKey]);
 
   useEffect(() => {
     if (isFinished) {
@@ -136,6 +148,7 @@ export function QuizPage() {
         </div>
 
         <QuestionCard
+          key={questionRenderKey}
           question={currentQuestion}
           questionIndex={currentIndex}
           totalQuestions={questions.length}

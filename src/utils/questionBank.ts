@@ -19,11 +19,31 @@ function pickRandomQuestions(questions: QuizQuestion[], count: number, label: st
 }
 
 function cloneAndShuffleOptions(questions: QuizQuestion[]): QuizQuestion[] {
-  return shuffleArray(questions).map((question) => ({
-    ...question,
-    options: shuffleArray(question.options),
-    image: question.image ? { ...question.image } : undefined
-  }));
+  return shuffleArray(questions).map((question) => {
+    const shuffledOptions = shuffleArray(
+      question.options.map((option) => ({
+        label: option.label,
+        isCorrect: option.id === question.correctOptionId
+      }))
+    );
+
+    const options = shuffledOptions.map((option, index) => ({
+      id: `opt-${index + 1}`,
+      label: option.label
+    }));
+
+    const correctOptionIndex = shuffledOptions.findIndex((option) => option.isCorrect);
+    if (correctOptionIndex === -1) {
+      throw new Error(`Pergunta ${question.id} sem alternativa correta após embaralhamento.`);
+    }
+
+    return {
+      ...question,
+      options,
+      correctOptionId: options[correctOptionIndex].id,
+      image: question.image ? { ...question.image } : undefined
+    };
+  });
 }
 
 export function getMainQuestionSet(): QuizQuestion[] {
