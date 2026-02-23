@@ -114,3 +114,37 @@ body::before {
   font-size: 0.75rem;
   font-weight: 600;
 }
+
+.social-link-tile {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 3px solid var(--color-black);
+  background: #fff;
+  padding: 0.85rem;
+  box-shadow: 4px 4px 0 var(--color-black);
+  color: var(--color-black);
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.social-link-tile strong {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.social-link-tile span {
+  font-size: 0.72rem;
+  font-weight: 700;
+  word-break: break-word;
+}
+
+.social-link-tile:hover {
+  transform: translate(-2px, -2px);
+}
+
+.social-link-tile:active {
+  transform: translate(2px, 2px);
+}

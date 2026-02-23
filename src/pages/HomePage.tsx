@@ -95,6 +95,31 @@ export function HomePage() {
               Desafio extra finalizado ({challengeResult.correctCount}/{challengeResult.totalQuestions})
             </p>
           ) : null}
+
+          <div className="mt-6 grid gap-3 sm:grid-cols-3">
+            <a
+              href="https://linktr.ee/robocamp.ft"
+              target="_blank"
+              rel="noreferrer"
+              className="social-link-tile"
+            >
+              <strong>Linktree</strong>
+              <span>linktr.ee/robocamp.ft</span>
+            </a>
+            <a
+              href="https://www.instagram.com/robocamp.ft/"
+              target="_blank"
+              rel="noreferrer"
+              className="social-link-tile"
+            >
+              <strong>Instagram</strong>
+              <span>@robocamp.ft</span>
+            </a>
+            <a href="mailto:robocamp@unicamp.br" className="social-link-tile">
+              <strong>E-mail</strong>
+              <span>robocamp@unicamp.br</span>
+            </a>
+          </div>
         </div>
 
         <FooterPartners />
